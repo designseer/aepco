@@ -5,6 +5,10 @@
   .mb-30 {
     margin-bottom: 30px;
   }
+  img.float-left {
+    float: left;
+    padding: 0 20px 0 0;
+}
 /* hover button style5
 -------------------------------------------------------------- */
 .hvr-shutter-out-verticaall {
@@ -29,7 +33,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background: #2644a6;
+    background: #062975;
     -webkit-transform: scaleY(0);
     transform: scaleY(0);
     -webkit-transform-origin: 50%;
@@ -56,7 +60,7 @@
     font-size: 14px;
     font-family: "Poppins";
     font-weight: 600;
-    background-color: #2644a6;
+    background-color: #062975;
     display: inline-block;
     color: #fff;
     padding-left: 40px;
@@ -617,7 +621,7 @@
 }
 
 .flat-about3 h1 a:hover {
-    color: #2644a6;
+    color: #062975;
 }
 
 .main-homepage3 .flat-about3 h1 a:hover {
@@ -919,6 +923,9 @@
 
 /*slider-3
 -------------------------------------------------------------- */
+.flat-slider.style1 {
+    clip-path: polygon(20% 0%, 80% 0%, 100% 0, 100% 90%, 80% 100%, 20% 100%, 0 90%, 0 0);
+}
 .flat-slider.style3 a.text-white {
     font-family: Poppins;
     font-size: 100px;
@@ -1290,11 +1297,13 @@
 -------------------------------------------------------------- */
 
 .flat-video {
-    padding: 102px 0px 387px 0px;
+    padding: 50px 0px 387px 0px;
     text-align: center;
-    background-color: #021727;
+    background-color: #fff;
 }
-
+.main-homepage1 .flat-about2 {
+    margin-top: 70px;
+}
 .flat-video .wrap-video {
     padding: 0 230px;
 }
@@ -1304,7 +1313,7 @@
     font-size: 14px;
     line-height: 90px;
     font-weight: 500;
-    color: #fde428;
+    color: #212121;
     display: inline-block;
     padding: 0 70px;
     position: relative;
@@ -1318,7 +1327,7 @@
     left: 0;
     width: 30px;
     height: 1px;
-    background-color: #fde428;
+    background-color: #212121;
 }
 
 .flat-video h5:after {
@@ -1328,19 +1337,19 @@
     right: 0;
     width: 30px;
     height: 1px;
-    background-color: #fde428;
+    background-color: #212121;
 }
 
 .flat-video h1 {
     margin-top: -19px;
 }
 
-.flat-video h1 a {
+.flat-video h1 {
     font-family: Poppins;
-    font-size: 60px;
-    line-height: 70px;
+    font-size: 48px;
+    line-height: 60px;
     font-weight: 600;
-    color: #fff;
+    color: #212121;
     letter-spacing: -1.7px;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -1627,6 +1636,7 @@
 
 .flat-calculate {
     padding: 40px 0 88px;
+    background-color: #fffdf0;
 }
 
 .flat-calculate .title-calculate {
@@ -1642,7 +1652,7 @@
     font-family: Rubik;
     font-size: 14px;
     font-weight: 500;
-    color: #2644a6;
+    color: #062975;
     letter-spacing: 2.7px;
 }
 
@@ -1672,18 +1682,37 @@
     opacity: 0.8;
 }
 .flat-tabs ul.menu-tab li {
-    background: #f4f6f8;
+    /* background: #f4f6f8; */
     float: left;
     width: 30%;
     cursor: pointer;
     text-align: center;
     padding: 38px 44px 31px;
     border-right: 1px solid #fff;
+    transition: 0.1s all ease;
 }
-
+.menu-tab-01 h2, .menu-tab-02 h2,.menu-tab-03 h2 {
+    position: relative;
+}
+.menu-tab-01 h2:before, .menu-tab-02 h2:before, .menu-tab-03 h2:before {
+    position: absolute;
+    top: -20px;
+    left:-35px;
+    font-size: 64px;
+    opacity:0.6;
+}
+.menu-tab-01 h2:before {
+    content:"01";
+}
+.menu-tab-02 h2:before {
+    content:"02";
+}
+.menu-tab-03 h2:before {
+    content:"03";
+}
 .flat-tabs ul.menu-tab li .icon {
     font-size: 44px;
-    color: #2644a6;
+    color: #062975;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
@@ -1712,20 +1741,53 @@
     margin-top: 13px;
 }
 
-.flat-tabs ul.menu-tab .menu-tab-01.active {
-    background-color: #2644a6;
+.flat-tabs ul.menu-tab {
+    position: relative;
 }
-.flat-tabs ul.menu-tab .menu-tab-02.active {
-    background-color: #6aa9b0;
+
+.menu-tab-01 {
+    background: url(../image/bg-01.webp);
+    background-size: cover;
+    background-position: 0% 0%;
+    transition: all 0.5s ease;
 }
-.flat-tabs ul.menu-tab .menu-tab-03.active {
-    background-color: #009368;
+.menu-tab-01:hover {
+    background-position: 75% 75%;
 }
+.menu-tab-02 {
+    background: url(../image/bg-02.webp);
+    background-size: cover;
+    background-position: 0% 0%;
+}
+.menu-tab-02:hover {
+    background-position: 75% 75%;
+}
+.menu-tab-03 {
+    background: url(../image/bg-03.webp);
+    background-size: cover;
+    background-position: 0% 0%;
+}
+.menu-tab-03:hover {
+    background-position: 75% 75%;
+}
+
+ .menu-tab-01.active,  .menu-tab-02.active, .menu-tab-03.active  {
+    border-left: 10px solid #feeb7e;
+ }
+ /* .menu-tab-02.active {
+    border-left: 10px solid #65969d;
+  }
+
+.menu-tab-03.active  {
+    border-left: 10px solid #009365;
+ } */
+
+
 .flat-tabs ul.menu-tab li.active img {
     color: #fff;
 }
 
-.flat-tabs ul.menu-tab li.active a {
+.flat-tabs ul.menu-tab li.active a, .flat-tabs ul.menu-tab li h2 {
     color: #fff;
 }
 
@@ -1748,49 +1810,31 @@
 }
 
 .flat-tabs .content-tab {
-    background-color: #2644a6;
+    background-color: #062975;
     background-image: url(../image/home/homepage2.png);
     margin-top: 29px;
 }
-.content-inner {
-    position: relative;
-}
-.inner-bg:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-  }
+
 .inner-01 {
-    background: url(../image/bg-01.webp);
-    background-size: cover;
+    background-color: #067552 !important;
 }
-.inner-01:before {
-    background-color: rgb(38 69 162 / 88%); 
-  }
-  .inner-02 {
-    background: url(../image/bg-02.webp);
-    background-size: cover;
+.inner-01 .wrap-content-inner-right ul li {
+    background-color: #08A674 !important;
 }
-.inner-02:before {
-    background-color: rgb(146 203 213 / 85%); 
+
+.inner-02 {
+    background-color: #066075 !important;
   }
-  .inner-02 li {
-    background-color: #65969d !important;
+.inner-02 .wrap-content-inner-right ul li {
+    background-color: #0888A6 !important;
   }
-.inner-03 {
-    background: url(../image/bg-03.webp);
-    background-size: cover;
+
+.inner-03  {
+    background-color: #062975 !important; 
+ }
+.inner-03 .wrap-content-inner-right ul li  {
+    background-color: #083AA6 !important; 
 }
-.inner-03:before {
-    background-color: rgb(11 179 130 / 90%);
-  }
-  .inner-03 li {
-    background-color: #009365 !important;
-  }
 .wrap-content-inner {
     position: relative;
     z-index: 99;
@@ -1896,7 +1940,7 @@
 .flat-tabs .content-tab .wrap-content-inner .wrap-content-inner-right {
     float: right;
     width: 50%;
-    padding: 126px 50px 0 21px;
+    padding: 95px 50px 0 21px;
 }
 
 .flat-tabs .content-tab .wrap-content-inner .wrap-content-inner-right li {
@@ -1906,7 +1950,7 @@
 }
 
 .flat-tabs .content-tab .wrap-content-inner .wrap-content-inner-right li.center {
-    margin-bottom: 0;
+    /* margin-bottom: 0; */
     background-color: #19348e;
     padding: 31px 38px 43px;
 }
@@ -1934,7 +1978,7 @@
 }
 
 #scroll-top i {
-    color: #fff;
+    color: #212121;
     font-size: 18px;
     line-height: 35px;
 }
@@ -1946,7 +1990,7 @@
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: #3b4147;
+    background-color: #fee34a;
     z-index: -1;
     -webkit-transition: all ease 0.3s;
     -moz-transition: all ease 0.3s;
@@ -1956,7 +2000,9 @@
 #scroll-top:hover:before {
     background-color: #19348e;
 }
-
+#scroll-top:hover i {
+    color: #fff;
+}
 #scroll-top:hover:after {
     color: #fff;
 }
@@ -2002,7 +2048,7 @@
     -webkit-animation: preloader-wave 1.6s linear infinite;
     animation: preloader-wave 1.6s linear infinite; 
     border-radius: 50%;
-    background: #2644a6;
+    background: #062975;
 }
 
 .loader:after {
@@ -2108,7 +2154,7 @@
 }
 
 .main-homepage2 .flat-our-blog-style2 .post .content-post h2 a:hover {
-    color: #2644a6;
+    color: #062975;
 }
 
 .flat-our-blog-style2 .post .content-post p {
@@ -2139,7 +2185,7 @@
 
 .flat-app-download .wrap-app.right {
     padding: 20px 20px;
-    background-color: #2644a6;
+    background-color: #062975;
     margin-top: -54px;
 }
 
@@ -2152,7 +2198,7 @@
 .flat-app-download .wrap-app.left .icon-app i {
     font-size: 30px;
     line-height: 38px;
-    color: #2644a6;
+    color: #062975;
 }
 
 .flat-app-download .wrap-app.left .content-app {
@@ -2290,11 +2336,11 @@
 }
 
 .title-section .wrap-contentt h2 a:hover {
-    color: #2644a6;
+    color: #062975;
 }
 
 .main-homepage2 .title-section .wrap-contentt h2 a:hover {
-    color: #2644a6;
+    color: #062975;
 }
 
 .main-homepage3 .title-section .wrap-contentt h2 a:hover {
@@ -2331,7 +2377,7 @@
 }
 
 .title-section.style3 .wrap-contentt h2.white a:hover {
-    color: #2644a6;
+    color: #062975;
 }
 
 .title-section .content-inner {
@@ -2431,7 +2477,7 @@
     font-size: 14px;
     line-height: 30px;
     font-weight: 500;
-    color: #2644a6;
+    color: #062975;
 }
 
 .flat-our-blog .post .content-post ul li a:hover {
@@ -2443,7 +2489,7 @@
 }
 
 .flat-our-blog .post .content-post h5 a:hover {
-    color: #2644a6;
+    color: #062975;
 }
 
 .flat-our-blog .post .content-post h5 a {
@@ -2474,7 +2520,7 @@
 }
 
 .flat-our-blog .post .content-post.style1 ul li a:hover {
-    color: #2644a6;
+    color: #062975;
 }
 
 .flat-our-blog .post .content-post h3 {
@@ -2498,7 +2544,7 @@
 }
 
 .flat-our-blog .post .content-post h3 a:hover {
-    color: #2644a6;
+    color: #062975;
 }
 
 .main-homepage3 .flat-our-blog .post .content-post h3 a:hover,
@@ -2586,7 +2632,7 @@
     font-size: 14px;
     line-height: 90px;
     font-weight: 500;
-    color: #2644a6;
+    color: #062975;
     position: relative;
 }
 
@@ -2597,7 +2643,7 @@
     left: 0;
     width: 75px;
     height: 2px;
-    background-color: #2644a6;
+    background-color: #062975;
 }
 
 .flat-features .content-features h2 {
@@ -2623,7 +2669,7 @@
 }
 
 .flat-features .content-features h2 a:hover {
-    color: #2644a6;
+    color: #062975;
 }
 
 .main-about .flat-features .content-features h2 a:hover {
@@ -2698,7 +2744,7 @@
 
 .flat-features-2 .content-post .wrap-icon {
     font-size: 41px;
-    color: #2644a6;
+    color: #062975;
 }
 
 .about-page .flat-features-2 {
@@ -2720,7 +2766,7 @@
 }
 
 .flat-features-2 .content-post:hover h3 a {
-    color: #2644a6;
+    color: #062975;
 }
 
 .main-team-details {
@@ -2739,7 +2785,7 @@
     font-size: 16px;
     line-height: 78px;
     font-weight: 500;
-    color: #2644a6;
+    color: #062975;
     position: relative;
     padding-left: 60px;
     letter-spacing: 3.2px;
@@ -2756,7 +2802,7 @@
     left: 0;
     width: 40px;
     height: 2px;
-    background-color: #2644a6;
+    background-color: #062975;
 }
 
 .flat-member-details .wrap-member-details h2 {
@@ -2792,7 +2838,7 @@
     font-size: 20px;
     line-height: 30px;
     font-weight: 400;
-    color: #2644a6;
+    color: #062975;
 }
 
 .flat-member-details .info-member-details .phone-member h5 {
@@ -2825,7 +2871,7 @@
 }
 
 .flat-member-details .info-member-details .social-member ul li:hover i {
-    color: #2644a6;
+    color: #062975;
 }
 
 .flat-member-details .wrap-member-details p {

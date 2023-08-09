@@ -23,7 +23,7 @@
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1365px) { 
-  
+	
 }
 
 @media only screen and (min-width: 767px) and (max-width: 1116px) { 
@@ -995,15 +995,42 @@
 }
 
 /* Tablet Portrait Size */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-	/*homepage-4*/
+@media only screen and (min-width: 890px) {
+	.flat-tabs .content-tab .wrap-content-inner .wrap-content-inner-left h1 {
+		width: 800px;
+	}
 
 }
 
 /* All Mobile Sizes */
 @media only screen and (max-width: 767px) {
+	.flat-video h1 {
+		font-size: 36px;
+		line-height: 44px;
+	}
+	.flat-video {
+		padding: 30px 0px 204px 0px;
+	}
+	.menu-tab-01 h2:before, .menu-tab-02 h2:before, .menu-tab-03 h2:before {
+		top: -2px;
+		left:-5px;
+		font-size: 44px;
+		opacity:0.6;
+	}
+	.flat-tabs .content-tab .wrap-icon i {
+		font-size: 42px;
+	}
+	.flat-tabs .content-tab .wrap-icon {
+		margin-bottom: 0;
+	}
+	.flat-tabs .content-tab .wrap-info p {
+		font-size: 22px;
+		margin-top: 0;
+	}
 	.flat-tabs .content-tab .wrap-content-inner .wrap-content-inner-right li, .flat-tabs .content-tab .wrap-content-inner .wrap-content-inner-right li.center {
-		padding: 25px 10px;
+		padding: 25px 20px;
+    display: flex;
+	margin-bottom: 15px;
 	}
 	.extra-menu {
 		position: fixed; 
@@ -1091,6 +1118,7 @@
 	}
 	.flat-tabs ul.menu-tab li.right {
 	    margin-right: 5px;
+		margin-bottom: 5px;
 	}
     footer.style2 .widget-blog-feeds {
     	margin-top: 40px;
@@ -1106,8 +1134,8 @@
 		margin-left: 20px;
 	}
 	.flat-calculate .title-calculate h1, .flat-about2 .content-about2 h2, .flat-tabs .content-tab .wrap-content-inner .wrap-content-inner-left h1 {
-		font-size: 40px;
-		line-height: 40px;
+		font-size: 36px;
+		line-height: 44px;
 	}
 	.flat-features-5 {
 		margin-top: 20px;
@@ -1157,9 +1185,16 @@
 		width: 100%;
 	}
 	.flat-tabs ul.menu-tab li {
-		width: 29%;
-		padding:12px;
-		border-bottom: 1px solid #4d981d;
+		width: 100%;
+		padding:15px;
+		/* border-bottom: 1px solid #4d981d; */
+	}
+	.flat-tabs ul.menu-tab li.center {
+		margin: 0;
+		margin-bottom: 5px;
+	}
+	.flat-tabs .content-tab {
+		margin-top: 10px;
 	}
 	.flat-tabs .content-tab .wrap-content-inner .wrap-content-inner-left {
 	    float: left;
