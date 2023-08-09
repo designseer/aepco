@@ -1674,7 +1674,7 @@
     margin: 33px 93px 0;
 }
 .text-white {
-    color: #fff;
+    color: #fff !important;
 }
 .size-20 {
     font-size: 20px;
@@ -2593,7 +2593,7 @@
 
 .flat-features {
     margin-top: 50px;
-    background-color: #0a0b20;
+    background-color: #061755;
     padding: 154px 0 142px;
 }
 
@@ -2680,7 +2680,7 @@
     margin-top: -6px;
 }
 
-.flat-features .content-features p.center-features {
+.flat-features .content-features p.center-features, .videobox .center-features {
     font-family: Rubik;
     font-size: 18px;
     line-height: 26px;
@@ -2691,14 +2691,18 @@
 
 .flat-features .content-features p.bottom-features {
     font-family: Rubik;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 26px;
     font-weight: 400;
     color: #aaa8cc;
     margin-top: 21px;
     padding-right: 20px;
 }
-
+p.two.bottom-features.bg-feature {
+    background-color: #0a3ba2;
+    padding: 20px;
+    color: #ddd;
+}
 .flat-features .content-features .wrap-btn {
     margin-top: 32px;
 }
@@ -2709,7 +2713,8 @@
 }
 
 .flat-features-2 {
-    padding: 101px 0 87px;
+    padding: 60px 0 0 0;
+    background-color: #0a3c9e;
 }
 
 .flat-features-2 .title-section .button-btn {
