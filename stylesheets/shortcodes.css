@@ -3002,7 +3002,7 @@ p.two.bottom-features.bg-feature {
     transition: all 0.8s ease-in-out;
 }
 
-.main-homepage4 .flat-how-it-work .content-how-it-work .bg-image {
+.bg-image {
     position: absolute;
     left: 0;
     bottom: 0;
@@ -3073,7 +3073,7 @@ p.two.bottom-features.bg-feature {
     background-color: #fde428;
 }
 
-.flat-how-it-work .content-how-it-work .bg-image.active {
+.bg-image.active {
     opacity: 1;
     height: 100%;
     width: 100%;

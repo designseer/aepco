@@ -5338,10 +5338,21 @@
 		line-height: 100px;
 	}
 
-	.main-about .flat-team {
+	.flat-team {
 		padding: 102px 0 50px;
+		background-color: #fff; 
+		transition: background-color 0.3s ease; 
 	}
-
+	
+	.flat-team h1 {
+		font-family: Poppins;
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 600;
+    color: #212121;
+    letter-spacing: -1.7px;
+	text-align: center;
+	}
 	.main-about .flat-team .wrap-team {
 		margin-top: 71px;
 	}
@@ -5361,33 +5372,35 @@
 
 	.flat-team .wrap-team {
 		border: 5px solid #f6faff;
-	    padding: 10px 10px 32px;
 	    text-align: center;
-	    margin-bottom: 41px;
+	    margin-bottom: 41px;		
 	}
-
 	.flat-team .wrap-team .info-team {
-		padding: 0 25px;
+		text-align: left;		
+		background-color: #fff;
 	}
 
 	.flat-team .wrap-team .info-team h4 {
 	    font-family: Rubik;
 	    font-size: 14px;
-	    line-height: 60px;
-	    color: #062975;
+	    line-height: 20px;
+	    color: #fff;
 	    font-weight: 500;
-	    letter-spacing: 2.8px;
-	    margin-top: 19px;
+	    letter-spacing: 0.2px;
+		padding: 10px 20px;
 	}
-
+	.flat-team .wrap-team .image-team img {
+		width: 100%;
+	}
 	.flat-team .wrap-team .info-team h2 {
 	    font-family: Poppins;
 	    font-size: 26px;
-	    line-height: 60px;
-	    color: #140a20;
+	    line-height: 30px;
+	    color: #fff;
 	    font-weight: 600;
 	    letter-spacing: -0.8px;
-	    margin-top: -25px;
+		margin-bottom: 15px;
+		padding: 10px 20px;		
 	}
 
 	.flat-team .wrap-team .info-team p {
@@ -5398,9 +5411,36 @@
 	    font-weight: 400;
 	    padding: 0 0 33px 0;
 	    margin-top: 3px;
-	    border-bottom: 1px solid #e5e5e5;
+		padding: 10px 20px 15px;
+	}
+	.flat-team .wrap-team .button-work {
+		padding: 10px 20px 32px;
+	}
+	.flat-team .website-01 {
+		transition: 0.3s background ease;
+		transition: 1s border ease;
+	}
+	.flat-team .website-01 h4 {
+		background-color: #067552;
+	}
+	.website-01-bg {
+		background-color: #007554 !important;
+	}
+	.flat-team .website-01 h2 {
+		background-color: #08A674;
+	}
+	
+	.flat-team .website-01:hover .flat-team .wrap-team {
+		border: 5px solid #da3911;
+	}
+	.flat-team .website-02 {
+		background-color: #066075;
 	}
 
+	.flat-team .website-03  {
+		background-color: #062975; 
+	}
+	
 	.flat-team .wrap-team .info-team ul {
 		margin-top: 24px;
 	}
@@ -6302,11 +6342,11 @@
 		color: #3954ae;
 	}
 
-	.flat-how-it-work .content-how-it-work .button-work {
+	/* .button-work {
 		margin-top: 32px;
-	}
+	} */
 
-	.flat-how-it-work .content-how-it-work .button-work a {
+	.button-work a {
 		padding: 15px 55px;
 		background-color: #fff;
 		border: 1px solid #c9d4f8;
@@ -6316,7 +6356,7 @@
 		font-weight: 600;
 	}
 
-	.flat-how-it-work .content-how-it-work .button-work a:hover {
+	.button-work a:hover {
 		color: #fff;
 	}
 
