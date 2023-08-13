@@ -3501,15 +3501,17 @@
 	    -webkit-animation: myPulse 3s infinite cubic-bezier(0.4, 0, 1, 1) both;
 	    animation: myPulse 3s infinite cubic-bezier(0.4, 0, 1, 1) both;
 	}
-
-	.featured-post img {
+.featured-post-1 {
+	overflow: hidden;
+}
+	.featured-post img, .featured-post-1 img {
 	    transition: all 1s ease;
 	    -webkit-transition: all 1s ease;
 	    -moz-transition: all 1s ease;
 	    -o-transition: all 1s ease;
 	}
 
-	.featured-post img:hover {
+	.featured-post img:hover, .featured-post-1 img:hover {
 		transform: scale(1.1,1.1);
 		-webkit-transform: scale(1.1,1.1);
 		-moz-transform: scale(1.1,1.1);
@@ -5339,9 +5341,10 @@
 	}
 
 	.flat-team {
-		padding: 102px 0 50px;
-		background-color: #fff; 
-		transition: background-color 0.3s ease; 
+		padding: 180px 0 50px;
+		background-color: #071853;
+		transition: background-color 0.3s ease;
+		margin-top: -150px;
 	}
 	
 	.flat-team h1 {
@@ -5416,7 +5419,7 @@
 	.flat-team .wrap-team .button-work {
 		padding: 10px 20px 32px;
 	}
-	.flat-team .website-01 {
+	.flat-team .website-01, .flat-team .website-02, .flat-team .website-03 {
 		transition: 0.3s background ease;
 		transition: 1s border ease;
 	}
@@ -5429,18 +5432,24 @@
 	.flat-team .website-01 h2 {
 		background-color: #08A674;
 	}
-	
-	.flat-team .website-01:hover .flat-team .wrap-team {
-		border: 5px solid #da3911;
-	}
-	.flat-team .website-02 {
+	.flat-team .website-02 h4 {
 		background-color: #066075;
 	}
-
-	.flat-team .website-03  {
+	.flat-team .website-02 h2 {
+		background-color: #0888A6;
+	  }
+	  .website-02-bg {
+		background-color: #066075 !important;
+	}
+	.flat-team .website-03 h4  {
 		background-color: #062975; 
 	}
-	
+	.flat-team .website-03 h2  {
+		background-color: #083AA6; 
+	}
+	.website-03-bg {
+		background-color: #062975 !important;
+	}
 	.flat-team .wrap-team .info-team ul {
 		margin-top: 24px;
 	}
@@ -6349,8 +6358,8 @@
 	.button-work a {
 		padding: 15px 55px;
 		background-color: #fff;
-		border: 1px solid #c9d4f8;
-		color: #8e97b6;
+		border: 2px solid #c9d4f8;
+		color: #212121;
 		font-family: Poppins;
 		font-size: 14px;
 		font-weight: 600;
@@ -6414,7 +6423,7 @@
 		font-weight: 500;
 		font-size: 14px;
 		line-height: 90px;
-		color: #eee;
+		/* color: #eee; */
 		position: relative;
 		padding-left: 81px;
 		letter-spacing: 2.7px;
@@ -6440,7 +6449,7 @@
 		font-size: 40px;
 		line-height: 50px;
 		font-weight: 600;
-		color: #fff;
+		/* color: #fff; */
 	}
 
 	.flat-about2 .content-about2 h2 a {
@@ -6448,7 +6457,7 @@
 		font-size: 40px;
 		line-height: 50px;
 		font-weight: 600;
-		color: #140a20;
+		/* color: #140a20; */
 	    letter-spacing: -1.2px;
 	    -webkit-transition: all 0.3s ease-in-out;
 	    -moz-transition: all 0.3s ease-in-out;
@@ -6466,7 +6475,7 @@
 		font-size: 16px;
 		line-height: 28px;
 		font-weight: 400;
-		color: #eee;
+		/* color: #eee; */
 	}
 
 	.flat-about2 .content-about2 p.one {
@@ -6488,7 +6497,7 @@
 		font-size: 18px;
 		line-height: 28px;
 		font-weight: 400;
-		color: #140a20;
+		/* color: #140a20; */
 	}
 
 	.flat-about2 .info-about2 h2 {
@@ -7393,8 +7402,8 @@
 	}
 
 	.main-homepage1 .flat-about2 {
-		padding: 70px 0;
-		background-color: #061755;
+		padding: 40px 0;
+		background-color: #fff;
 	}
 
 	.main-homepage1 .flat-features-2 {

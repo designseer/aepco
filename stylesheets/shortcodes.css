@@ -1297,7 +1297,7 @@
 -------------------------------------------------------------- */
 
 .flat-video {
-    padding: 50px 0px 387px 0px;
+    padding: 0px 0px 387px 0px;
     text-align: center;
     background-color: #fff;
 }
@@ -2260,7 +2260,7 @@
     font-size: 14px;
     line-height: 90px;
     font-weight: 500;
-    color: #7f84aa;
+    color: #fff;
     position: relative;
     letter-spacing: 2.8px;
 }
