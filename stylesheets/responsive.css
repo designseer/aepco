@@ -1395,11 +1395,10 @@
 		display: none;
 	}
 	.flat-team .title-section p {
-		padding-left: 0;
-		text-align: center;
+		padding-left: 20px;
 	}
 	.flat-team .title-section .content-inner {
-		text-align: center;
+		padding-left: 10px;
 	}
 	.flat-get-in-touch .get-in-touch {
 	    width: 100%;
@@ -1672,7 +1671,11 @@
 		font-size: 36px;
 	}
 	.title-section .wrap-contentt h2 a {
-		font-size: 40px;
+		font-size: 32px;
+		line-height: 40px;
+	}
+	.title-section p {
+		line-height: 50px;
 	}
 	.flat-features.style2 .content-features h5 {
 	    padding-left: 82px;
