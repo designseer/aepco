@@ -1386,10 +1386,20 @@
 	}
     .flat-team .title-section .wrap-contentt {
     	margin-bottom: 40px;
-		padding-left: 20px;
+		/* padding-left: 20px; */
     }
 	.flat-team .btn-hover {
 		float: left;
+	}
+	.title-section p:before {
+		display: none;
+	}
+	.flat-team .title-section p {
+		padding-left: 0;
+		text-align: center;
+	}
+	.flat-team .title-section .content-inner {
+		text-align: center;
 	}
 	.flat-get-in-touch .get-in-touch {
 	    width: 100%;

@@ -5426,7 +5426,7 @@
 	.flat-team .website-01 h4 {
 		background-color: #067552;
 	}
-	.website-01-bg {
+	.website-01-bg, .example-1 {
 		background-color: #007554 !important;
 	}
 	.flat-team .website-01 h2 {
@@ -5438,7 +5438,7 @@
 	.flat-team .website-02 h2 {
 		background-color: #0888A6;
 	  }
-	  .website-02-bg {
+	  .website-02-bg, .example-2 {
 		background-color: #066075 !important;
 	}
 	.flat-team .website-03 h4  {
@@ -5447,7 +5447,7 @@
 	.flat-team .website-03 h2  {
 		background-color: #083AA6; 
 	}
-	.website-03-bg {
+	.website-03-bg, .example-3 {
 		background-color: #062975 !important;
 	}
 	.flat-team .wrap-team .info-team ul {

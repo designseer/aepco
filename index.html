@@ -207,7 +207,7 @@
                     <p>OUR BUSINESSES</p>
                     <div class="content-inner clearfix">
                         <div class="wrap-contentt mb-30">
-                            <h2><a class="text-white"> Triple-Force Commitment</a></h2>
+                            <h2><a class="text-white"> Commitment to Environment</a></h2>
                         </div>                                
                             
                     </div>
@@ -220,7 +220,7 @@
                         <div class="info-team">
                             <h4> <img src="image/services/hazard.png" alt="image"> Hazardous Waste Management</h4>
                             <h2>Arabian Environmental Protection CO</h2>
-                            <p>Lorem ipsum dolor sit amet, consecte- tur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                            <p>Founded in response to the critical need for pollution reduction, Arabian Environmental Protection Co. LLC (AEPCO) stands as a pioneering force. Established in the mid-1999, AEPCO introduced an innovative Oil Separation technology, combatting the environmental impact of unlawful oily waste disposal from vessels along the UAE East Coast. </p>
                             <div class="button-work">
                                 <a href="#" class=" hvr-shutter-out-verticall">Visit AepcoUae.com</a>
                             </div>
@@ -235,7 +235,7 @@
                         <div class="info-team">
                             <h4><img src="image/services/mud.png" alt="image"> Oil Sludge Treatment</h4>
                             <h2>I Linkz Petroleum</h2>
-                            <p>Lorem ipsum dolor sit amet, consecte- tur adipisicing elit, do eiusmod tempor incididunt ut labore. sed do eiusmod tempor incididunt ut labore.</p>
+                            <p>At the heart of our mission lies the paramount task of safeguarding the environment through precise hazardous waste management. With adherence to the Environment Protection Act and Hazardous Wastes Handling Rules, we address Oily Sludges, necessitating specialized care. Our expertise ensures meticulous post-de-oiling remediation, eradicating any potential for landfill contamination. </p>
                             <div class="button-work">
                                 <a href="#" class=" hvr-shutter-out-verticall">Visit I-Petroluem.com</a>
                             </div>
@@ -250,7 +250,7 @@
                         <div class="info-team">
                             <h4><img src="image/services/oil.png" alt="image"> Oil Processing & Collection</h4>
                             <h2>Arabian Stars</h2>
-                            <p>Lorem ipsum dolor sit amet, consecte- tur adipisicing elit, do eiusmod tempor incididunt ut labore. sed do eiusmod tempor incididunt ut labore.</p>
+                            <p>As a subsidiary of Arabian Environmental Protection Co. FZC, based in Sharjah, Arabian Stars Oil Processing and Collection specializes in serving the Marine and Oil & Gas sectors. Our dedicated marine teams prioritize lasting partnerships rooted in integrity and commitment. By integrating in-house capabilities, we offer premium services, competitive rates, and impressive delivery times.</p>
                             <div class="button-work">
                                 <a href="#" class=" hvr-shutter-out-verticall">Visit ArbianStars.com</a>
                             </div>
@@ -390,7 +390,42 @@
     flatTeamElement.classList.remove('website-03-bg');
     });
   </script>
+<script>
+// Check if the current device is a mobile device
+function isMobileDevice() {
+    return window.innerWidth <= 768; // Adjust the breakpoint as needed
+}
 
+// Function to add class names with increments
+function addClassWithIncrement(element, className, index) {
+    element.classList.add(`${className}-${index}`);
+}
+
+// Function to remove class names with increments
+function removeClassWithIncrement(element, className, index) {
+    element.classList.remove(`${className}-${index}`);
+}
+
+// Function to handle scroll event
+function handleScroll() {
+    if (isMobileDevice()) {
+        const flatTeam = document.querySelector('.flat-team');
+        const websiteElements = document.querySelectorAll('.website-01, .website-02, .website-03');
+        
+        websiteElements.forEach((websiteElement, index) => {
+            const rect = websiteElement.getBoundingClientRect();
+            if (rect.top >= 0 && rect.top <= window.innerHeight) {
+                addClassWithIncrement(flatTeam, 'example', index + 1);
+            } else {
+                removeClassWithIncrement(flatTeam, 'example', index + 1);
+            }
+        });
+    }
+}
+
+// Attach scroll event listener
+window.addEventListener('scroll', handleScroll);
+</script>
 <!-- Slider -->
 <script src="rev-slider/js/jquery.themepunch.tools.min.js"></script>
 <script src="rev-slider/js/jquery.themepunch.revolution.min.js"></script>

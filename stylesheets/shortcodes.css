@@ -2251,7 +2251,8 @@
 .title-section .wrap-contentt {
     float: left;
     display: inline-block;
-    width: 52%;
+    padding-left: 10px;
+    /* width: 52%; */
 }
 
 .title-section p {
