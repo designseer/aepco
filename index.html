@@ -370,8 +370,8 @@
 </footer>
 <script src="javascript/jquery.min.js"></script>
 <script src="javascript/main.js"></script>
-<script src="javascript/rev-slider.js"></script>
-<script src="javascript/owl.carousel.min.js"></script>
+<!-- <script src="javascript/rev-slider.js"></script> -->
+<!-- <script src="javascript/owl.carousel.min.js"></script> -->
 <script src="javascript/jquery-countTo.js"></script>
 <script src="javascript/jquery-waypoints.js"></script>
 <script src="javascript/bootstrap.min.js"></script>
@@ -406,42 +406,42 @@
     website03Element.addEventListener('mouseleave', () => {
     flatTeamElement.classList.remove('website-03-bg');
     });
-  </script>
+</script>
 <script>
-// Check if the current device is a mobile device
-function isMobileDevice() {
-    return window.innerWidth <= 768; // Adjust the breakpoint as needed
-}
-
-// Function to add class names with increments
-function addClassWithIncrement(element, className, index) {
-    element.classList.add(`${className}-${index}`);
-}
-
-// Function to remove class names with increments
-function removeClassWithIncrement(element, className, index) {
-    element.classList.remove(`${className}-${index}`);
-}
-
-// Function to handle scroll event
-function handleScroll() {
-    if (isMobileDevice()) {
-        const flatTeam = document.querySelector('.flat-team');
-        const websiteElements = document.querySelectorAll('.website-01, .website-02, .website-03');
-        
-        websiteElements.forEach((websiteElement, index) => {
-            const rect = websiteElement.getBoundingClientRect();
-            if (rect.top >= 0 && rect.top <= window.innerHeight) {
-                addClassWithIncrement(flatTeam, 'example', index + 1);
-            } else {
-                removeClassWithIncrement(flatTeam, 'example', index + 1);
-            }
-        });
+    // Check if the current device is a mobile device
+    function isMobileDevice() {
+        return window.innerWidth <= 768; // Adjust the breakpoint as needed
     }
-}
 
-// Attach scroll event listener
-window.addEventListener('scroll', handleScroll);
+    // Function to add class names with increments
+    function addClassWithIncrement(element, className, index) {
+        element.classList.add(`${className}-${index}`);
+    }
+
+    // Function to remove class names with increments
+    function removeClassWithIncrement(element, className, index) {
+        element.classList.remove(`${className}-${index}`);
+    }
+
+    // Function to handle scroll event
+    function handleScroll() {
+        if (isMobileDevice()) {
+            const flatTeam = document.querySelector('.flat-team');
+            const websiteElements = document.querySelectorAll('.website-01, .website-02, .website-03');
+            
+            websiteElements.forEach((websiteElement, index) => {
+                const rect = websiteElement.getBoundingClientRect();
+                if (rect.top >= 0 && rect.top <= window.innerHeight) {
+                    addClassWithIncrement(flatTeam, 'example', index + 1);
+                } else {
+                    removeClassWithIncrement(flatTeam, 'example', index + 1);
+                }
+            });
+        }
+    }
+
+    // Attach scroll event listener
+    window.addEventListener('scroll', handleScroll);
 </script>
 <!-- Slider -->
 <script src="rev-slider/js/jquery.themepunch.tools.min.js"></script>
