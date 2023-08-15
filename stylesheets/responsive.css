@@ -11,6 +11,7 @@
 		padding-left: 15px;
 		padding-right: 15px;	
 	}
+	
 }
 @media only screen and (max-width: 1366px) {
 	header.style1 .nav-wrap {
@@ -22,8 +23,16 @@
 	}
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1365px) { 
-	
+@media only screen and (min-width: 1200px) { 
+	.flat-team .wrap-team .info-team {;
+		min-height: 450px;
+	}
+	.btn-mg-20 {
+		margin-top:20px;
+	}
+	.btn-mg-5 {
+		margin-top:5px;
+	}
 }
 
 @media only screen and (min-width: 767px) and (max-width: 1116px) { 
