@@ -4345,7 +4345,14 @@
     color: #6b769c;
     letter-spacing: 0px;
 	}
-	
+	.flat-features-2 .contact-info ul li {
+		display: flex;
+		margin: 0;
+		padding-bottom: 15px;
+	}
+	.flat-features-2 .contact-info .wrap-icon {
+		padding-right: 15px;
+	}
 	
 	.flat-get-in-touch {
 		padding-bottom: 41px;

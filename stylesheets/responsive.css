@@ -33,14 +33,7 @@
 	.btn-mg-5 {
 		margin-top:5px;
 	}
-	.flat-features-2 .contact-info ul li {
-		display: flex;
-		margin: 0;
-		padding-bottom: 15px;
-	}
-	.flat-features-2 .contact-info .wrap-icon {
-		padding-right: 15px;
-	}
+
 }
 
 @media only screen and (min-width: 767px) and (max-width: 1116px) { 
@@ -1072,7 +1065,7 @@
     display: flex;
 	margin-bottom: 15px;
 	}
-	.bottom {
+	.footer .bottom {
 		padding-bottom: 50px;
 	}
 	.flat-about2 .image-box .videobox {
