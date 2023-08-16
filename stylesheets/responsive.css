@@ -33,6 +33,14 @@
 	.btn-mg-5 {
 		margin-top:5px;
 	}
+	.flat-features-2 .contact-info ul li {
+		display: flex;
+		margin: 0;
+		padding-bottom: 15px;
+	}
+	.flat-features-2 .contact-info .wrap-icon {
+		padding-right: 15px;
+	}
 }
 
 @media only screen and (min-width: 767px) and (max-width: 1116px) { 
@@ -125,6 +133,31 @@
 
 /* Smaller than standard 992 */
 @media only screen and (max-width: 991px) {
+	.extra-menu {
+		position: fixed; 
+		bottom: 0;
+		left: 0;
+		right: 0;
+		border-top-left-radius: 35px;
+		border-top-right-radius: 35px;
+	}
+	header.style1 .extra-menu {
+		display: inline-block;
+		float: none;
+		padding: 5px 0;
+	}
+	header.style1 .extra-menu ul {
+		display: flex;
+		justify-content: space-around;
+	}
+	header.style1 .extra-menu {
+		margin-top: -35px;
+		background-color: #3954ae;
+	}
+	header.style1 .extra-menu ul li a {
+		font-size: 16px;
+		margin-top: -5px;
+	}
 	/* .extra-menu {
 		position: absolute;
 	} */
@@ -139,7 +172,7 @@
 	}
 	#mainnav-mobi .menu {
 		overflow-y: auto;
-		height: 50vh;
+		height: 160px;
 	}
 	.main-homepage2 .flat-our-blog-style2 {
 		padding-top: 50px;
@@ -513,13 +546,11 @@
 	    width: 26px;
 	    height: 26px;
 	    float: right;
-	    top: 50%;
+	    top: 43%;
 	    right: 15px;
 	    transform: translateY(-50%);
 	}
-	/* header.style1 .extra-menu {
-	    display: none;
-	} */
+
 	header.style2 #mainnav-mobi {
 		display: block;
 	}
@@ -1041,23 +1072,6 @@
     display: flex;
 	margin-bottom: 15px;
 	}
-	.extra-menu {
-		position: fixed; 
-		bottom: 0;
-		left: 0;
-		right: 0;
-		border-top-left-radius: 35px;
-		border-top-right-radius: 35px;
-	}
-	header.style1 .extra-menu {
-		display: inline-block;
-		float: none;
-		padding: 5px 0;
-	}
-	header.style1 .extra-menu ul {
-		display: flex;
-		justify-content: space-around;
-	}
 	.bottom {
 		padding-bottom: 50px;
 	}
@@ -1076,14 +1090,7 @@
 		margin-right: 15px;
 		
 	}
-	header.style1 .extra-menu {
-		margin-top: -35px;
-		background-color: #3954ae;
-	}
-	header.style1 .extra-menu ul li a {
-		font-size: 16px;
-		margin-top: -5px;
-	}
+	
 	.flat-features6.style3 .item {
 		border-right: unset;
 	}

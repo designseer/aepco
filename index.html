@@ -31,10 +31,26 @@
                         <div id="logo" class="logo">
                             <a href="index.html"><img src="image/logo.jpg" alt="image" width=""></a>
                         </div>
-                        <!-- <div class="mobile-button">
+                        <div class="mobile-button">
                             <span></span>
                         </div>
-                         -->
+                        <div class="nav-wrap ">
+                            <nav id="mainnav" class="mainnav">
+                                <ul class="menu">
+                                    <li class="active">
+                                        <a href="index.html" title="">HOME</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="about.html" title="">ABOUT</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="contact.html" title="">CONTACT US</a>
+                                      
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <!-- /.nav-wrap -->
                         <div class="extra-menu clearfix"> 
                             <div class="top-bar-info">
                                 <ul>
@@ -63,7 +79,7 @@
                     <!-- Slide 1 -->
                     <li data-transition="random">
                         <!-- Main Image -->
-                        <img src="image/home/home1-1.webp" alt="" data-bgposition="center center" data-no-retina   data-kenburns="on"
+                        <img src="image/home/s-03.webp" alt="" data-bgposition="center center" data-no-retina   data-kenburns="on"
                         data-duration="9000"
                         data-ease="Linear.easeNone"
                         data-scalestart="100"
@@ -139,7 +155,7 @@
                 <!-- Slide 2 -->
                 <li data-transition="random">
                     <!-- Main Image -->
-                    <img src="image/home/home1-2.webp" alt="" data-bgposition="center center" data-no-retina  data-kenburns="on"
+                    <img src="image/home/s-02.webp" alt="" data-bgposition="center center" data-no-retina  data-kenburns="on"
                     data-duration="9000"
                     data-ease="Linear.easeNone"
                     data-scalestart="100"
@@ -219,7 +235,7 @@
         <div class="container">
             <div class="row">
                 <!-- <h1 class="mb-30">Our Business</h1> -->
-                <div class="title-section">
+                <div class="title-section wow animate__animated animate__fadeIn animate__delay-10">
                     <p>OUR BUSINESSES</p>
                     <div class="content-inner clearfix">
                         <div class="wrap-contentt mb-30">
@@ -229,14 +245,14 @@
                     </div>
                 </div>
                 <div class=" col-md-4 col-sm-6">
-                    <div class="wrap-team website-01">
+                    <div class="wrap-team website-01 wow animate__animated animate__fadeIn animate__delay-15">
                         <div class="image-team featured-post-1">
                             <img src="image/brand-01.jpg" alt="image">
                         </div>
                         <div class="info-team">
                             <h4> <img src="image/services/hazard.png" alt="image"> Marine Waste Management</h4>
                             <h2>Arabian Environmental Protection CO</h2>
-                            <p>The Arabian Environmental protection Co. LLC (AEPCO) is pioneering venture born out of the absolute necessity to reduce the marine pollution caused by the illegal discharge of the oily waste by vessels either passing or anchored off the UAE East Coast. Incorporated in mid- 1999, AEPCO brought to the emirates a unique Oil Separation technology that meets the waste management and disposal goals of the UAE in an environmentally acceptable manner. Our plant is conveniently situated at Free zone 2 , next to the port of Fujairah. </p>
+                            <p>The Arabian Environmental protection Co. LLC (AEPCO) is pioneering venture incorporated in mid- 1999. AEPCO brought to the emirates a unique Oil Separation technology that meets the marine waste management and disposal goals of the UAE in an environmentally acceptable manner. Our plant is conveniently situated at Free zone 2 , next to the port of Fujairah.</p>
                             <div class="button-work">
                                 <a href="#" class=" hvr-shutter-out-verticall">Visit AepcoUae.com</a>
                             </div>
@@ -244,7 +260,7 @@
                     </div>
                 </div>
                 <div class=" col-md-4 col-sm-6">
-                    <div class="wrap-team website-02">
+                    <div class="wrap-team website-02 wow animate__animated animate__fadeIn animate__delay-20">
                         <div class="image-team featured-post-1">
                             <img src="image/brand-02.jpg" alt="image">
                         </div>
@@ -260,7 +276,7 @@
                     </div>
                 </div>
                 <div class=" col-md-4 col-sm-6">
-                    <div class="wrap-team website-03">
+                    <div class="wrap-team website-03 wow animate__animated animate__fadeIn animate__delay-25">
                         <div class="image-team featured-post-1">
                             <img src="image/brand-03.jpg" alt="image">
                         </div>
@@ -301,7 +317,7 @@
                 </div>
                 <div class="col-md-5 col-sm-12">
                     <div class="content-about2">
-                        <div class="wrap-content-about2">
+                        <div class="wrap-content-about2 wow animate__animated animate__fadeInUp">
                             <h5>ABOUT US</h5>
                             <h2>Doing the right thing,
                             at the right time.</h2>
@@ -311,7 +327,7 @@
                                 we can make a positive impact on our environment while contributing to the success and longevity of your
                                 operations</p>
                                 <div class="wrap-btn mt-30">
-                                    <a href="about.html" class="flat-button-arrow btn-fde428">Read CEO Message</a>
+                                    <a href="about.html" class="wow animate__animated animate__bounce flat-button-arrow btn-fde428">Read CEO Message</a>
                                 </div>
                         </div>
                     </div>
@@ -370,6 +386,7 @@
 </footer>
 <script src="javascript/jquery.min.js"></script>
 <script src="javascript/main.js"></script>
+<script src="javascript/wow.min.js"></script>
 <!-- <script src="javascript/rev-slider.js"></script> -->
 <!-- <script src="javascript/owl.carousel.min.js"></script> -->
 <script src="javascript/jquery-countTo.js"></script>
@@ -379,6 +396,9 @@
 <script src="javascript/jquery.isotope.min.js"></script> 
 <script src="javascript/jquery-fancybox.js"></script> 
 <script src="javascript/jquery.easing.js"></script>
+<script>
+    new WOW().init();
+    </script>
 <script>
     const website01Element = document.querySelector('.website-01');
     const website02Element = document.querySelector('.website-02');
