@@ -7872,3 +7872,9 @@
 		padding: 16px 35px 16px 87px;
 	}
 
+	.fancybox-image,.fancybox-iframe {
+		display: block;
+		width: 360px;
+		height: 100%;
+		margin: 0 auto !important;
+	}
