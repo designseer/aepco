@@ -678,7 +678,7 @@
 /* Page Title
 -------------------------------------------------------------- */
 	.page-title {
-		
+		border-bottom: 10px solid #0a3c9e;
 		padding: 140px 0 60px 0;
 		text-align: center;
 		background-size: cover;
@@ -4482,7 +4482,7 @@
 	.flat-get-in-touch .contact-info h3 {
 		font-family: Poppins;
 		font-size: 40px;
-		line-height: 56px;
+		line-height: 32px;
 		font-weight: 600;
 		color: #fff;
 		letter-spacing: -1.3px;
@@ -7165,7 +7165,7 @@
 	}
 
 	.flat-features-5 .title-features-5 {
-	    border: 8px solid #062975;
+	    border: 8px solid #0a3c9e;
 	    padding: 26px 40px 50px 64px;
 	}
 
@@ -7187,7 +7187,7 @@
 		left: 0;
 		width: 79px;
 		height: 1px;
-		background-color: #062975;
+		background-color: #0a3c9e;
 	}
 
 	.flat-features-5 .title-features-5 h2 {
@@ -7209,8 +7209,8 @@
 	    width: 36px;
 	    border-radius: 4px;
 	    background-color: #fff;
-	    border-right: 8px solid #062975;
-	    border-top: 8px solid #062975;
+	    border-right: 8px solid #0a3c9e;
+	    border-top: 8px solid #0a3c9e;
 	    transform: rotate(45deg) skew(7deg);
 	    -webkit-transition: all 0.3s ease;
 	    -moz-transition: all 0.3s ease;
