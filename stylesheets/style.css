@@ -678,16 +678,17 @@
 /* Page Title
 -------------------------------------------------------------- */
 	.page-title {
-		/* background-image: url(../image/blog/blog11.jpg); */
-		padding: 225px 0 120px 0;
+		
+		padding: 140px 0 60px 0;
 		text-align: center;
-		/* clip-path: polygon(20% 0%, 80% 0%, 100% 0, 100% 90%, 80% 100%, 20% 100%, 0 90%, 0 0); */
+		background-size: cover;
+    background-position: center;
 	}
 
 	.page-title .page-title-heading h1 a {
 		font-family: Poppins;
-		font-size: 80px;
-		line-height: 90px;
+		font-size: 60px;
+		line-height: 70px;
 		font-weight: 600;
 		color: #fff;
 		letter-spacing: -3px;
@@ -721,7 +722,7 @@
 	.page-title .breadcrumbs ul li a {
 	    font-family: Rubik;
 	    font-size: 16px;
-	    line-height: 90px;
+	    line-height: 40px;
 	    font-weight: 500;
 	    color: #fff;
 	    letter-spacing: 2.3px;
@@ -842,9 +843,10 @@
 
 
 	header.style1 .nav-wrap {
-		text-align: center;
-		display: inline-block;
-		margin-right: -150px;
+		text-align: right;
+		/* text-align: center; */
+		/* display: inline-block; */
+		/* margin-right: -150px; */
 	}
  
 	header.style1 #mainnav > ul.menu > li {
@@ -4331,6 +4333,12 @@
 		margin-bottom: 98px;
 	}
 
+	.contact-page .page-title{
+		background-position: left;
+    background-size: 150%;
+    background-repeat: no-repeat;
+	}
+
 	.flat-map {
 		height: 700px;
 	}
@@ -4349,6 +4357,8 @@
 		display: flex;
 		margin: 0;
 		padding-bottom: 15px;
+		border-top: 1px solid #e7e7e7;
+    padding-top: 10px;
 	}
 	.flat-features-2 .contact-info .wrap-icon {
 		padding-right: 15px;
@@ -4362,17 +4372,27 @@
 		width: 55%;
 		float: left;
 		display: inline-block;
-		padding: 75px 80px 70px;
+		
 		background-image: url(../image/contact/contact2.png);
 	    background-repeat: no-repeat;
 	    background-position: top right;
 	    background-color: #fff;
 	    box-shadow: 0px 0px 10px 0px #eee;
 	}
-
+	.flat-get-in-touch .get-in-touch p  {
+	  
+		padding: 20px 0 0px 70px;
+	 }
+	 .flat-get-in-touch .get-in-touch h2  {
+	   
+		 padding:0 0 0 70px;
+	 }
+	.flat-get-in-touch .get-in-touch form  {
+		padding: 0 70px 60px;
+	}
 	.flat-get-in-touch .get-in-touch input,
 	.flat-get-in-touch .get-in-touch textarea {
-	    background-color: #f9f7ff;
+	    background-color: #e7e7e7;
 	    border: none;
 	    color: #7d7bad;
 	    font-family: Rubik;
@@ -4419,8 +4439,10 @@
 		font-family: Rubik;
 		font-size: 14px;
 		font-weight: 500;
-		color: #99a4c8;
+		color: #fff;
 		letter-spacing: 2.8px;
+		position: absolute;
+    top: 60px;
 	}
 
 	.flat-get-in-touch .get-in-touch h2 {
@@ -4428,8 +4450,10 @@
 		font-size: 40px;
 		line-height: 57px;
 		font-weight: 600;
-		color: #0f0e26;
+		color: #fff;
 		letter-spacing: -1.3px;
+		position: absolute;
+    top: 100px;
 	}
 
 	.flat-get-in-touch .contact-info {
@@ -4437,7 +4461,7 @@
 		display: inline-block;
 		background-color: #062975;
 		padding: 74px 79px 58px;
-		background-image: url(../image/contact/contact1.png);
+		/* background-image: url(../image/contact/contact1.png); */
 	    background-repeat: no-repeat;
 	    background-position: top right;
 	}
@@ -4476,6 +4500,8 @@
 	.flat-get-in-touch .contact-info ul li {
 		margin-bottom: 15px;
 		margin-top: 43px;
+		border-top: 1px solid #1949a7;
+    padding-top: 20px;
 	}
 
 	.flat-get-in-touch .contact-info ul li.center {
@@ -5107,9 +5133,9 @@
 		margin-top: 99px;
 	}
 
-	.main-about {
-		padding: 80px 0 0;
-	}
+	/* .main-about {
+		padding: 20px 0;
+	} */
 
 	.flat-about {
 		padding: 60px 0 90px;
@@ -6398,7 +6424,9 @@
 	.main-services-details .flat-sponsors .image a {
 		line-height: 100px;
 	}
-
+	.flat-about2 {
+		padding: 20px 0;
+	}
 	.flat-about2 .image-box {
 		margin-bottom: 30px;
 	}

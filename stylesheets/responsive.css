@@ -126,6 +126,15 @@
 
 /* Smaller than standard 992 */
 @media only screen and (max-width: 991px) {
+	.title-section .wrap-contentt h2 a {
+		font-size: 36px;
+		line-height: 40px;
+	}
+	.contact-page .page-title{
+		background-position: center;
+		background-size: auto;
+		background-repeat: no-repeat;
+	}
 	.extra-menu {
 		position: fixed; 
 		bottom: 0;
@@ -165,7 +174,7 @@
 	}
 	#mainnav-mobi .menu {
 		overflow-y: auto;
-		height: 160px;
+		height: 208px;
 	}
 	.main-homepage2 .flat-our-blog-style2 {
 		padding-top: 50px;
@@ -308,7 +317,7 @@
 		padding-bottom: 0;
 	}
 	.main-about .flat-features {
-		padding-top: 80px;
+		padding-top: 0;
 		padding-bottom: 70px;
 	}
 	.flat-about {
@@ -442,15 +451,15 @@
 		padding: 60px 0; 
 	}
 	.page-title .page-title-heading h1 a {
-		font-size: 70px;
+		font-size: 50px;
 	}
 	.featured-post img {
 		width: 100%;
 	}
-	.page-title {
-		padding-top: 230px;
-		padding-bottom: 120px;
-	}
+	/* .page-title {
+		padding-top: 140px;
+		padding-bottom: 60px;
+	} */
 	.flat-features-5 .title-features-5 {
 		padding-left: 40px;
 	}
@@ -709,6 +718,7 @@
 	.page-title {
 	    background-repeat: no-repeat;
 	    background-size: cover;
+		background-position: center center;
 	}
 	.flat-our-blog {
 	    margin-top: 0;
@@ -1037,6 +1047,10 @@
 
 /* All Mobile Sizes */
 @media only screen and (max-width: 767px) {
+	.contact-page .page-title{
+		background-position: 28%;
+    background-size: cover;
+	}
 	.flat-video h1 {
 		font-size: 36px;
 		line-height: 44px;
@@ -1411,8 +1425,19 @@
 	}
 	.flat-get-in-touch .get-in-touch {
 	    width: 100%;
-	    padding: 20px 20px;
 	    box-shadow: 0px 0px 10px 0px #eee;
+	}
+	.flat-get-in-touch .get-in-touch p  {
+	  
+	   padding: 20px 0 0px 20px;
+	}
+	.flat-get-in-touch .get-in-touch h2  {
+	  
+	    padding:0 0 0 20px;
+	}
+	.flat-get-in-touch .get-in-touch form  {
+	  
+	    padding: 0 0 20px 20px;
 	}
 	.flat-get-in-touch .contact-info {
 	    width: 100%;

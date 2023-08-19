@@ -2,13 +2,32 @@
   .mt-30 {
     margin-top: 30px;
   } 
+  .mt-45 {
+    margin-top: 45px;
+  } 
   .mb-30 {
     margin-bottom: 30px;
   }
+  .mr-20 {
+    margin-right: 20px;
+}
   img.float-left {
     float: left;
     padding: 0 20px 0 0;
 }
+.margin-auto {
+    margin: 0 auto;
+}
+.float-right {
+    float: right;
+}
+.text-right {
+    text-align: right;
+}
+.text-dark  {
+    color: #333;
+}
+
 /* hover button style5
 -------------------------------------------------------------- */
 .hvr-shutter-out-verticaall {
@@ -2278,7 +2297,7 @@
     padding-left: 81px;
     font-family: Rubik;
     font-size: 14px;
-    line-height: 90px;
+    line-height: 40px;
     font-weight: 500;
     color: #fff;
     position: relative;
@@ -2612,9 +2631,9 @@
 -------------------------------------------------------------- */
 
 .flat-features {
-    margin-top: 50px;
-    background-color: #061755;
-    padding: 154px 0 142px;
+    /* margin-top: 50px; */
+    background-color: #fff;
+    padding: 20px 0 70px;
 }
 
 .flat-features.style2 {
@@ -2704,7 +2723,7 @@
     font-family: Rubik;
     font-size: 18px;
     line-height: 26px;
-    color: #aaa8cc;
+    color: #333;
     font-style: Italic;
     margin-top: 41px;
 }
@@ -2714,7 +2733,7 @@
     font-size: 16px;
     line-height: 26px;
     font-weight: 400;
-    color: #aaa8cc;
+    color: #333;
     margin-top: 21px;
     padding-right: 20px;
 }
@@ -2734,7 +2753,7 @@ p.two.bottom-features.bg-feature {
 
 .flat-features-2 {
     padding: 60px 0 0 0;
-    background-color: #062a72;
+    background-color: #f3f4f5;
 }
 
 .flat-features-2 .title-section .button-btn {
@@ -2761,6 +2780,7 @@ p.two.bottom-features.bg-feature {
     -ms-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0.5rem 1rem; 
 }
 .flat-features-2 .content-post.color-01{
     border-top: 8px solid #00a677;
@@ -2796,8 +2816,8 @@ p.two.bottom-features.bg-feature {
 
 .flat-features-2 .content-post h3 a {
     font-family: Poppins;
-    font-size: 24px;
-    line-height: 32px;
+    font-size: 20px;
+    line-height: 26px;
     font-weight: 600;
     color: #140a20;
     letter-spacing: 0.3px;
