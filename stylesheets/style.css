@@ -4351,7 +4351,7 @@
 	}
 	.flat-features-2 .contact-info .wrap-info p {
 		font-family: Rubik;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 400;
     color: #6b769c;
     letter-spacing: 0px;
@@ -4366,7 +4366,9 @@
 	.flat-features-2 .contact-info .wrap-icon {
 		padding-right: 15px;
 	}
-	
+	.wrap-icon img {
+		min-width: 30px;
+	}
 	.flat-get-in-touch {
 		padding-bottom: 41px;
 	}
@@ -4541,8 +4543,8 @@
 
 	.flat-get-in-touch .contact-info .wrap-info p {
 		font-family: Rubik;
-		font-size: 20px;
-		line-height: 30px;
+		font-size: 18px;
+		line-height: 28px;
 		font-weight: 400;
 		color: #a7b6e6 !important;
 		letter-spacing: 0px;
