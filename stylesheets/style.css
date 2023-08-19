@@ -840,7 +840,9 @@
 	header.style1.fixed-header #site-header .mobile-button {
 		top: 50%;
 	}
-
+	.extra {
+		background-color: #001523;
+	}
 
 	header.style1 .nav-wrap {
 		text-align: right;
@@ -850,10 +852,11 @@
 	}
  
 	header.style1 #mainnav > ul.menu > li {
-	 	display: inline-block;
-	 	line-height: 104px;
-	    margin-right: 60px;
-	    position: relative;
+		display: inline-block;
+		line-height: 40px;
+		margin-right: 60px;
+		margin-top: 40px;
+		position: relative;
 	}
 
 	header.style1 .nav-wrap ul li a {
@@ -1065,7 +1068,7 @@
 	}
 
 	header.style1 .extra-menu{
-		display: inline-block;
+		/* display: inline-block; */
 		float: right;
 		padding: 19px 0;
 	}
@@ -5385,10 +5388,10 @@
 	}
 
 	.flat-team {
-		padding: 180px 0 50px;
+		padding: 60px 0 0px;
 		background-color: #071853;
 		transition: background-color 0.3s ease;
-		margin-top: -150px;
+		/* margin-top: -125px; */
 	}
 	
 	.flat-team h1 {
@@ -7619,15 +7622,22 @@
 	    position: relative;
 	    text-align: left;
 	    border-top: 1px solid #102877;
-	    cursor: pointer
+	    cursor: pointer;
+		transition: 0.2s all ease-in-out;
 	}
-
+	#mainnav-mobi ul li:hover {
+		background-color: #fff;
+		
+	}
 	#mainnav-mobi ul > li > a {
 	    text-decoration: none;
 	    height: 50px;
 	    line-height: 50px;
 	    padding: 0 15px;
 	    color: #fff;
+	}
+	#mainnav-mobi ul > li > a:hover {
+		color: #102877;
 	}
 
 	#mainnav-mobi ul.sub-menu {

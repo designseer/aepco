@@ -27,7 +27,9 @@
 .text-dark  {
     color: #333;
 }
-
+.p-0 {
+    padding: 0;
+}
 /* hover button style5
 -------------------------------------------------------------- */
 .hvr-shutter-out-verticaall {

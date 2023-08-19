@@ -4,6 +4,7 @@
 	header.style1 .logo, header.style2 .logo, header.style3 .logo, header.style4 .logo {
 		max-width: 135px;
 	}
+	
 }
 
 @media only screen and (max-width: 1140px) { 
@@ -33,6 +34,12 @@
 	.btn-mg-5 {
 		margin-top:5px;
 	}
+	.image-call-to-action {
+		padding-bottom: 50px;
+	}
+	.extra-menu {
+		display: none;
+	}
 
 }
 
@@ -48,6 +55,9 @@
 	footer.style1 .widget-privecy,
 	footer.style1 .widget-blog-feeds {
 		padding-left: 0;
+	}
+	.extra-menu {
+		display: none;
 	}
 }
 /* Smaller than standard 1200 */
@@ -852,7 +862,7 @@
 	}
 	.flat-get-in-touch .get-in-touch {
 	    width: 50%;
-	    padding: 20px 20px;
+	    /* padding: 20px 20px; */
 	    box-shadow: none;
 	}
 	.flat-get-in-touch .contact-info {
@@ -1042,11 +1052,55 @@
 	.flat-tabs .content-tab .wrap-content-inner .wrap-content-inner-left h1 {
 		width: 800px;
 	}
+	.link::before {
+		content: '';
+	}
+	.link::before, .link::after {
+		position: absolute;
+		width: 100%;
+		height: 1px;
+		background: currentColor;
+		top: 100%;
+		left: 0;
+		pointer-events: none;
+	}
+.link--io {
+    font-family: europa, sans-serif;
+}
+
+.link--io::before {
+    transform-origin: 100% 50%;
+    transform: scale3d(0, 1, 1);
+    transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+}
+
+.link--io:hover::before {
+    transform-origin: 0% 50%;
+    transform: scale3d(1, 1, 1);
+    transition-timing-function: cubic-bezier(0.4, 1, 0.8, 1);
+}
+
+.link--io::after {
+    content: '';
+    top: calc(100% + 4px);
+    transform-origin: 0% 50%;
+    transform: scale3d(0, 1, 1);
+    transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+}
+
+.link--io:hover::after {
+    transform-origin: 100% 50%;
+    transform: scale3d(1, 1, 1);
+    transition-timing-function: cubic-bezier(0.4, 1, 0.8, 1);
+}
 
 }
 
 /* All Mobile Sizes */
 @media only screen and (max-width: 767px) {
+	.flat-get-in-touch {
+		padding: 0;
+	}
 	.contact-page .page-title{
 		background-position: 28%;
     background-size: cover;
@@ -1056,7 +1110,7 @@
 		line-height: 44px;
 	}
 	.flat-video {
-		padding: 30px 0px 204px 0px;
+		padding: 30px 0px 180px 0px;
 	}
 	.menu-tab-01 h2:before, .menu-tab-02 h2:before, .menu-tab-03 h2:before {
 		top: -2px;
@@ -1437,7 +1491,7 @@
 	}
 	.flat-get-in-touch .get-in-touch form  {
 	  
-	    padding: 0 0 20px 20px;
+	    padding: 0 20px 20px 20px;
 	}
 	.flat-get-in-touch .contact-info {
 	    width: 100%;
