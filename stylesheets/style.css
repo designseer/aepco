@@ -832,7 +832,7 @@
 	header.style2 .logo,
 	header.style3 .logo,
 	header.style4 .logo {
-		padding-top: 31px;  
+		/* padding-top: 31px;   */
 		float: left;
 	}
 
@@ -1560,9 +1560,10 @@
 		padding-top: 30px;
 	}
 	.logo {
-		outline: 5px solid #247bb9;
+		/* outline: 5px solid #093d9a; */
 		background-color: #fff;
-		margin-top: -50px;
+		margin-top: -20px;
+		box-shadow: rgba(0, 0, 0, 0.15) 2.72076px 8px 24px; 
 	}
 	header.style4 .search {
 		float: right;
@@ -4333,7 +4334,7 @@
 /* Contact Page
 -------------------------------------------------------------- */
 	.main-contact {
-		margin-bottom: 98px;
+		/* margin-bottom: 98px; */
 	}
 
 	.contact-page .page-title{
@@ -4348,6 +4349,7 @@
 
 	.flat-get-in-touch {
 		padding-top: 80px;
+		background-color: #d9e6fd;
 	}
 	.flat-features-2 .contact-info .wrap-info p {
 		font-family: Rubik;
@@ -5390,7 +5392,7 @@
 	}
 
 	.flat-team {
-		padding: 60px 0 0px;
+		padding: 60px 0 40px;
 		background-color: #071853;
 		transition: background-color 0.3s ease;
 		/* margin-top: -125px; */
@@ -5435,7 +5437,7 @@
 	.flat-team .wrap-team .info-team h4 {
 	    font-family: Rubik;
 	    font-size: 14px;
-	    line-height: 20px;
+	    line-height: 18px;
 	    color: #fff;
 	    font-weight: 500;
 	    letter-spacing: 0.2px;
@@ -5446,7 +5448,7 @@
 	}
 	.flat-team .wrap-team .info-team h2 {
 	    font-family: Poppins;
-	    font-size: 26px;
+	    font-size: 24px;
 	    line-height: 30px;
 	    color: #fff;
 	    font-weight: 600;
@@ -7502,8 +7504,10 @@
 	    height: 26px;
 	    float: right;
 	    top: 50%;
-	    right: 0;
-	    background-color: transparent;
+	    padding: 20px;
+		border-radius: 50px;
+		right: 0;
+		background-color: #081951;
 	    cursor: pointer;
 	    -webkit-transition: all 0.3s ease;
 	    -moz-transition: all 0.3s ease;
@@ -7527,26 +7531,26 @@
 
 	.mobile-button:before,
 	.mobile-button:after {
-	    content:'';
-	    position:absolute;
-	    top:0;
-	    height:2px;
-	    width:100%;
-	    left:0;
-	    top:50%;
-	    -webkit-transform-origin:50% 50%;
-	    -ms-transform-origin:50% 50%;
-	    transform-origin:50% 50%;
+	    content: '';
+		position: absolute;
+		top: 0;
+		height: 2px;
+		width: 50%;
+		left: 9px;
+		top: 50%;
+		-webkit-transform-origin: 50% 50%;
+		-ms-transform-origin: 50% 50%;
+		transform-origin: 50% 50%;
 	}
 
 	.mobile-button span {
-	    position:absolute;
-	    width:100%;
-	    height:2px;
-	    left:0;
-	    top:50%;
-	    overflow:hidden;
-	    text-indent:200%;
+	    position: absolute;
+		width: 60%;
+		height: 2px;
+		left: 8.5px;
+		top: 50%;
+		overflow: hidden;
+		text-indent: 200%;
 	}
 
 	.mobile-button:before {

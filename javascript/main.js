@@ -524,20 +524,38 @@
         });
     };
 
-    var goTop =  function() {
-        $(window).scroll(function() {
-            if ( $(this).scrollTop() > 800 ) {
-                $('#scroll-top').addClass('show');
-            } else {
-                $('#scroll-top').removeClass('show');
-            }
-        });
+    // var goTop =  function() {
+    //     $(window).scroll(function() {
+    //         if ( $(this).scrollTop() > 800 ) {
+    //             $('#scroll-top').addClass('show');
+    //         } else {
+    //             $('#scroll-top').removeClass('show');
+    //         }
+    //     });
 
-        $('#scroll-top').on('click', function() {
-            $('html, body').animate({ scrollTop: 0 }, 1000 , 'easeInOutExpo');
-            return false;
+    //     $('#scroll-top').on('click', function() {
+    //         $('html, body').animate({ scrollTop: 0 }, 1000 , 'easeInOutExpo');
+    //         return false;
+    //     });
+    // };
+    var goTop = function() {
+        $(window).scroll(function() {
+          var scrollTop = $(this).scrollTop();
+          var scrollThreshold = 800;
+          var footerOffset = $('.footer').offset().top - $(window).height() + 100; // Considering 100px padding
+      
+          if (scrollTop > scrollThreshold && scrollTop < footerOffset) {
+            $('#scroll-top').addClass('show');
+          } else {
+            $('#scroll-top').removeClass('show');
+          }
         });
-    };
+      
+        $('#scroll-top').on('click', function() {
+          $('html, body').animate({ scrollTop: 0 }, 1000, 'easeInOutExpo');
+          return false;
+        });
+      };
 
     var flatImagePopup = function(){
         if($().magnificPopup) {

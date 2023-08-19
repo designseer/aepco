@@ -40,7 +40,9 @@
 	.extra-menu {
 		display: none;
 	}
-
+	.lh-20 {
+		line-height: 20px !important;
+	}
 }
 
 @media only screen and (min-width: 767px) and (max-width: 1116px) { 
@@ -452,7 +454,7 @@
 		margin-top: 40px;
 	}
 	.main-contact{
-		margin-bottom: 40px;
+		margin-bottom: 0;
 	}
 	.flat-get-in-touch .wrap-get-in-touch {
 		margin-top: unset;
@@ -1098,8 +1100,11 @@
 
 /* All Mobile Sizes */
 @media only screen and (max-width: 767px) {
+	.flat-team {
+		padding: 40px 0 0px;
+	}
 	.flat-get-in-touch {
-		padding: 0;
+		padding: 20px 40px;
 	}
 	.contact-page .page-title{
 		background-position: 28%;
@@ -1133,9 +1138,10 @@
     display: flex;
 	margin-bottom: 15px;
 	}
-	.footer .bottom {
+	footer .bottom {
 		padding-bottom: 50px;
 	}
+
 	.flat-about2 .image-box .videobox {
 		top: -50px;
 	}
@@ -1562,7 +1568,7 @@
 /* Mobile Landscape Size */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	header.style1 .logo, header.style2 .logo, header.style3 .logo, header.style4 .logo {
-		max-width: 95px;
+		max-width: 100px;
 	}
 }
 
