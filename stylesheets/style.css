@@ -855,7 +855,7 @@
 		display: inline-block;
 		line-height: 40px;
 		margin-right: 60px;
-		margin-top: 40px;
+		margin-top: 20px;
 		position: relative;
 	}
 
@@ -7196,7 +7196,7 @@
 		font-family: Poppins;
 		font-size: 40px;
 		line-height: 50px;
-		color: #140a20;
+		color: #093d9a;
 		font-weight: 600;
 	    margin-top: -9px;
 	    letter-spacing: -1.3px;
