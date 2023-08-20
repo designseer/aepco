@@ -4825,16 +4825,14 @@
 	.videobox a.fancybox:before {
 		position: absolute;
 	    content: "";
-	    top: 0;
-	    left: 0;
-	    height: 100%;
-	    width: 100%;
-	    border-radius: 50%;
+	    top: -10px;
+	    left: -10px;
+	    height: 120%;
+	    width: 120%;
+	    border-radius: 100%;
+		background-color: #ffffff18;
 	    z-index: -1;
-	    -o-animation: myPulse 3s infinite cubic-bezier(0.4, 0, 1, 1) both;
-	    -ms-animation: myPulse 3s infinite cubic-bezier(0.4, 0, 1, 1) both;
-	    -webkit-animation: myPulse 3s infinite cubic-bezier(0.4, 0, 1, 1) both;
-	    animation: myPulse 3s infinite cubic-bezier(0.4, 0, 1, 1) both;
+	    animation: pulse 0.5s infinite cubic-bezier(0.4, 0, 1, 1) both;
 	}
 
 	.main-case-details .flat-row {
@@ -5478,7 +5476,7 @@
 		background-color: #067552;
 	}
 	.website-01-bg, .example-1 {
-		background-color: #007554 !important;
+		background-color: #00a677 !important;
 	}
 	.flat-team .website-01 h2 {
 		background-color: #08A674;
@@ -5487,10 +5485,10 @@
 		background-color: #066075;
 	}
 	.flat-team .website-02 h2 {
-		background-color: #0888A6;
+		background-color: #07a1c5;
 	  }
 	  .website-02-bg, .example-2 {
-		background-color: #066075 !important;
+		background-color: #07a1c5 !important;
 	}
 	.flat-team .website-03 h4  {
 		background-color: #062975; 
@@ -5499,7 +5497,7 @@
 		background-color: #083AA6; 
 	}
 	.website-03-bg, .example-3 {
-		background-color: #062975 !important;
+		background-color: #0a3ba2 !important;
 	}
 	.flat-team .wrap-team .info-team ul {
 		margin-top: 24px;

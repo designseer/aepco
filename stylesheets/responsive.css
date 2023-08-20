@@ -1057,6 +1057,7 @@
 	.link::before {
 		content: '';
 	}
+
 	.link::before, .link::after {
 		position: absolute;
 		width: 100%;
@@ -1066,6 +1067,7 @@
 		left: 0;
 		pointer-events: none;
 	}
+
 .link--io {
     font-family: europa, sans-serif;
 }
@@ -1562,7 +1564,51 @@
 	#rev-slider1 {
 		text-align: center;
 	}
+	.flat-team .wrap-team {
+		margin-bottom: 50px;
+		display: flex;
+		align-items: center;
+		background: #fff;
+	}
 	
+	.flat-team .image-team {
+		flex-basis: 50%;
+		background: #fff;
+		vertical-align: middle;
+	}
+	
+	.flat-team .wrap-team .info-team {
+		text-align: left;
+		background-color: #fff;
+		flex-basis: 70%;
+	}
+	
+	.flat-team .wrap-team .button-work {
+		padding: 10px;
+	}
+	
+	.flat-team .wrap-team .info-team p {
+		font-size: 14px;
+		line-height: 26px;
+		padding: 55px 20px 5px;
+	}
+	
+	.flat-team .wrap-team .info-team h4 {
+		position: absolute;
+		top: -35px;
+		width: 94.5%;
+		left: 14px;
+	}
+	.flat-team .wrap-team .info-team h2 {
+		font-size: 19px;
+		line-height: 26px;
+		width: 95%;
+		position: absolute;
+		left: 14px;
+	}
+	.flat-team .button-work a {
+		padding: 15px 20px;
+	}
 }
 
 /* Mobile Landscape Size */
