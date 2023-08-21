@@ -1356,7 +1356,7 @@
     font-size: 14px;
     line-height: 90px;
     font-weight: 500;
-    color: #212121;
+    color: #081951;
     display: inline-block;
     padding: 0 70px;
     position: relative;
@@ -1392,7 +1392,7 @@
     font-size: 44px;
     line-height: 48px;
     font-weight: 600;
-    color: #212121;
+    color: #093d9a;
     letter-spacing: -1.7px;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -1769,15 +1769,15 @@
     background-color: #fff;
 } 
 .flat-tabs ul.menu-tab li.active a {
-    color: #212121;
+    color: #093d9a;
     font-weight: 500;
 } 
-.content-tab h2, .content-tab h4, .content-tab h5 {
+.content-tab h1, .content-tab h2, .content-tab h4, .content-tab h5 {
     padding: 20px 0;
+    color: #093d9a;
 }
 .content-tab h1 {
     font-size: 40px;
-    padding:30px 0;
 }
 .content-tab h2 {
     font-size: 28px;
@@ -2845,8 +2845,11 @@ p.two.bottom-features.bg-feature {
     font-size: 20px;
     line-height: 26px;
     font-weight: 600;
-    color: #140a20;
+    color: #081951;
     letter-spacing: 0.3px;
+}
+.wrap-info h2 {
+    color: #093d9a;
 }
 
 .flat-features-2 .content-post:hover h3 a {

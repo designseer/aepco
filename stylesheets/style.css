@@ -6846,7 +6846,9 @@
 	.image-call-to-action {
 		margin-top: -367px;
 	}
-
+	i.fa.fa-play {
+		color: #093d9a;
+	}
 	.image-call-to-action .videobox a.fancybox.style2 {
 	    width: 100px;
 	    height: 100px;
