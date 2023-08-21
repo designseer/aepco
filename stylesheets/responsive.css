@@ -1634,6 +1634,9 @@
 
 /* Mobile Portrait Size */
 @media only screen and (max-width: 479px) {
+	.flat-tabs ul.menu-tab li a {
+		font-size: 13px;
+	}
 	header.style1 .logo, header.style2 .logo, header.style3 .logo, header.style4 .logo {
 		max-width: 95px;
 	}
