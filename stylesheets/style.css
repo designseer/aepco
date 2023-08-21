@@ -2823,7 +2823,7 @@
 		content: '';
 		position: absolute;
 		top: 47%;
-		left: -100px;
+		left: 200px;
 		width: 70px;
 		height: 1px;
 		background-color: #e1eaeb;
@@ -2833,7 +2833,7 @@
 		content: '';
 		position: absolute;
 		top: 47%;
-		right: -100px;
+		right: 200px;
 		width: 70px;
 		height: 1px;
 		background-color: #ccc6de;

@@ -138,6 +138,17 @@
 
 /* Smaller than standard 992 */
 @media only screen and (max-width: 991px) {
+	.flat-slider.style1 .wellcome.make:before {
+		top: 47%;
+		left: -100px;
+	}
+
+	.flat-slider.style1 .wellcome.make:after {
+		top: 47%;
+		right: -100px;
+	}
+
+
 	.title-section .wrap-contentt h2 a {
 		font-size: 36px;
 		line-height: 40px;
