@@ -2836,7 +2836,7 @@
 		right: 200px;
 		width: 70px;
 		height: 1px;
-		background-color: #ccc6de;
+		background-color: #e1eaeb;
 	}
 
 	.flat-slider.style1 .text-white.style1 {
@@ -7168,7 +7168,7 @@
 
 	.flat-features-5 .title-features-5 {
 	    border: 8px solid #0a3c9e;
-	    padding: 26px 40px 50px 64px;
+	    padding: 15px 40px 15px 64px;
 	}
 
 	.flat-features-5 .title-features-5 h5 {
@@ -7195,7 +7195,7 @@
 	.flat-features-5 .title-features-5 h2 {
 		font-family: Poppins;
 		font-size: 40px;
-		line-height: 50px;
+		line-height: 44px;
 		color: #093d9a;
 		font-weight: 600;
 	    margin-top: -9px;

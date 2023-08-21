@@ -43,6 +43,9 @@
 	.lh-20 {
 		line-height: 20px !important;
 	}
+	.flat-features-5 .content-features-5 .image-features-5 {
+		padding: 0px 35px;
+	}
 }
 
 @media only screen and (min-width: 767px) and (max-width: 1116px) { 
