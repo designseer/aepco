@@ -2766,7 +2766,9 @@
 p.two.bottom-features.bg-feature {
     background-color: #0a3ba2;
     padding: 20px;
-    color: #ddd;
+    color: #eee;
+    font-size: 18px;
+    line-height: 30px;
 }
 .flat-features .content-features .wrap-btn {
     margin-top: 32px;

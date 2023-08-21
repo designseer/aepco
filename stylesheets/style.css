@@ -181,7 +181,7 @@
 		font: 16px/26px "Rubik", sans-serif;
 		font-weight: 400;
 		background-color: #fff;		
-		color: #8583b1;
+		color: #333;
 	}
 
 	a {		
@@ -375,7 +375,7 @@
 	h1, h2, h3, h4, h5, h6 {
 		font-family: 'Poppins', sans-serif;
 		font-weight: 600;
-		color: #140a20;
+		color: #093d9a;
 	}
 
 	h1 { font-size: 26px; line-height: 26px; }
@@ -5459,7 +5459,7 @@
 	    font-family: Rubik;
 	    font-size: 14px;
 	    line-height: 26px;
-	    color: #706db1;
+	    color: #6b769c;
 	    font-weight: 400;
 	    padding: 0 0 33px 0;
 	    margin-top: 3px;
