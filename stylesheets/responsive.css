@@ -1564,7 +1564,7 @@
 	#rev-slider1 {
 		text-align: center;
 	}
-	.flat-team .wrap-team {
+	/* .flat-team .wrap-team {
 		margin-bottom: 50px;
 		display: flex;
 		align-items: center;
@@ -1608,7 +1608,7 @@
 	}
 	.flat-team .button-work a {
 		padding: 15px 20px;
-	}
+	} */
 }
 
 /* Mobile Landscape Size */
