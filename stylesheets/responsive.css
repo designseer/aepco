@@ -1281,8 +1281,8 @@
 		width: 100%;
 	}
 	.flat-tabs ul.menu-tab li {
-		width: 30%;
-		padding:15px;
+		width: 32%;
+		padding:10px;
 		/* border-bottom: 1px solid #4d981d; */
 	}
 	.flat-tabs ul.menu-tab li a {
