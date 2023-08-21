@@ -522,7 +522,7 @@
 	    margin: 0;
 	}
 	.flat-tabs .content-inner {
-	    padding: 40px 20px;
+	    padding: 20px;
 	}
 	.flat-tabs .content-tab .wrap-content-inner .wrap-content-inner-right {
 	    padding: 150px 0 0 0;
@@ -1214,7 +1214,7 @@
 	}
 	.flat-tabs ul.menu-tab li.right {
 	    margin-right: 5px;
-		margin-bottom: 5px;
+		/* margin-bottom: 5px; */
 	}
     footer.style2 .widget-blog-feeds {
     	margin-top: 40px;
@@ -1223,7 +1223,7 @@
 		margin: 0 0;
 	} */
 	.flat-calculate {
-		padding: 40px 0 0px;
+		padding: 40px 0;
 	}
 	.flat-calculate .title-calculate {
 		text-align: left;
@@ -1281,16 +1281,19 @@
 		width: 100%;
 	}
 	.flat-tabs ul.menu-tab li {
-		width: 100%;
+		width: 30%;
 		padding:15px;
 		/* border-bottom: 1px solid #4d981d; */
 	}
+	.flat-tabs ul.menu-tab li a {
+		font-size: 14px;
+	}
 	.flat-tabs ul.menu-tab li.center {
 		margin: 0;
-		margin-bottom: 5px;
+		/* margin-bottom: 5px; */
 	}
 	.flat-tabs .content-tab {
-		margin-top: 10px;
+		/* margin-top: 10px; */
 	}
 	.flat-tabs .content-tab .wrap-content-inner .wrap-content-inner-left {
 	    float: left;

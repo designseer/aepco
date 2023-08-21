@@ -706,8 +706,8 @@
 	}
 
 	.page-title .breadcrumbs ul li:not(:last-child) {
-		padding-right: 21px;
-	    margin-right: 13px;
+		padding-right: 12px;
+    margin-right: 5px;
 	}
 
 	.page-title .breadcrumbs ul li:first-of-type:after {
@@ -6526,7 +6526,7 @@
 		font-size: 16px;
 		line-height: 28px;
 		font-weight: 400;
-		/* color: #eee; */
+		color: #556583;
 	}
 
 	.flat-about2 .content-about2 p.one {
