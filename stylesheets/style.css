@@ -4338,7 +4338,7 @@
 	}
 
 	.contact-page .page-title{
-		background-position: left;
+		/* background-position: left; */
     background-size: 150%;
     background-repeat: no-repeat;
 	}
@@ -5478,13 +5478,13 @@
 	.website-01-bg, .example-1 {
 		background-color: #00a677 !important;
 	}
-	.flat-team .website-01 h2 {
+	.flat-team .website-01 h2, .color-01 {
 		background-color: #08A674;
 	}
 	.flat-team .website-02 h4 {
 		background-color: #066075;
 	}
-	.flat-team .website-02 h2 {
+	.flat-team .website-02 h2, .color-02 {
 		background-color: #07a1c5;
 	  }
 	  .website-02-bg, .example-2 {
@@ -5493,7 +5493,7 @@
 	.flat-team .website-03 h4  {
 		background-color: #062975; 
 	}
-	.flat-team .website-03 h2  {
+	.flat-team .website-03 h2, .color-03  {
 		background-color: #083AA6; 
 	}
 	.website-03-bg, .example-3 {
@@ -6245,14 +6245,15 @@
 	}
 
 	.flat-features-1 {
-		padding: 146px 0 31px;
+		padding: 46px 0 31px;
 		background-color: #fff;
 	}
 
 	.flat-features-1 .wrap-features {
-		padding: 49px 50px 42px 47px;
+		padding: 20px 25px 32px 47px;
 		border: 1px solid #e5e5e5;
-		margin-bottom: 30px;
+		/* margin-bottom: 30px; */
+		position: relative;
 	}
 
 	.flat-features-1 .wrap-features h2 {
@@ -6297,7 +6298,7 @@
 		color: #062975;
 	}
 
-	.flat-features-1 .wrap-features img {
+	.flat-features-1 .wrap-features img, .services-01 img, .services-02 img, .services-03 img, .services-01 .wrap-features ,  .services-02 .wrap-features, .services-03 .wrap-features{
 		    -webkit-transition: all 0.5s ease-in-out;
 	    -moz-transition: all 0.5s ease-in-out;
 	    -ms-transition: all 0.5s ease-in-out;
@@ -6305,9 +6306,18 @@
 	    transition: all 0.5s ease-in-out;
 	}
 
-	.flat-features-1 .wrap-features:hover img {
-		transform: rotateY(360deg);
+	.services-01:hover img, .services-02:hover img, .services-03:hover img{
+		filter: saturate(2);
 	}
+	.services-01 .wrap-features {
+		border-bottom: 5px solid #0a3ba2;
+}
+.services-02 .wrap-features {
+	border-bottom: 5px solid #00a1c3;
+}
+.services-03 .wrap-features {
+	border-bottom: 5px solid #00a677;
+}
 
 	.flat-features-1 .wrap-features a i {
 	    -webkit-transition: all 0.3s ease-in-out;
@@ -7630,6 +7640,9 @@
 	    border-top: 1px solid #102877;
 	    cursor: pointer;
 		transition: 0.2s all ease-in-out;
+	}
+	#mainnav-mobi ul li:last-child {
+		border: 1px solid #19338b;
 	}
 	#mainnav-mobi ul li:hover {
 		background-color: #fff;

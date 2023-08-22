@@ -141,6 +141,9 @@
 
 /* Smaller than standard 992 */
 @media only screen and (max-width: 991px) {
+	.flat-features-1 .wrap-features {
+		margin-bottom: 30px;
+	}
 	.flat-slider.style1 .wellcome.make:before {
 		top: 47%;
 		left: -100px;
@@ -193,14 +196,15 @@
 		margin-top: 70px;
 	}
 	.main-services {
-		padding-bottom: 70px;
+		padding-bottom: 40px;
+		padding-top: 40px;
 	}
 	#mainnav-mobi ul > li.active > a > i {
 		display: none;
 	}
 	#mainnav-mobi .menu {
 		overflow-y: auto;
-		height: 208px;
+		height: auto;
 	}
 	.main-homepage2 .flat-our-blog-style2 {
 		padding-top: 50px;
@@ -405,7 +409,7 @@
 		margin-top: 30px;
 	}
 	.flat-features-1 {
-		padding-top: 70px;
+		padding-top: 20px;
 		padding-bottom: 0;
 	}
 	.flat-how-it-work {
@@ -1116,6 +1120,7 @@
 
 /* All Mobile Sizes */
 @media only screen and (max-width: 767px) {
+
 	.flat-team {
 		padding: 40px 0 0px;
 	}
@@ -1633,6 +1638,7 @@
 	header.style1 .logo, header.style2 .logo, header.style3 .logo, header.style4 .logo {
 		max-width: 100px;
 	}
+
 }
 
 /* Mobile Portrait Size */
