@@ -1514,10 +1514,12 @@
 	.flat-get-in-touch .get-in-touch p  {
 	  
 	   padding: 20px 0 0px 20px;
+	   top: 40px;
 	}
 	.flat-get-in-touch .get-in-touch h2  {
 	  
 	    padding:0 0 0 20px;
+		top: 80px;
 	}
 	.flat-get-in-touch .get-in-touch form  {
 	  
