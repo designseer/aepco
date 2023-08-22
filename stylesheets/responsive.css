@@ -1521,6 +1521,15 @@
 	    padding:0 0 0 20px;
 		top: 80px;
 	}
+	.first .title-section p {
+
+		padding-left: 35px;
+		border-bottom: 1px solid #bdc1db;
+		}
+		.flat-features-1 .wrap-features p {
+			font-size: 16px;
+    line-height: 26px;
+		}
 	.flat-get-in-touch .get-in-touch form  {
 	  
 	    padding: 0 20px 20px 20px;
