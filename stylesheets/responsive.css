@@ -720,7 +720,7 @@
 	}
 	.flat-sponsors {
 	    background-repeat: no-repeat;
-	    padding: 80px 0;
+	    padding: 40px 0 5px 0;
 	}
 	.main-team {
 	    padding: 70px 0 20px;
@@ -1144,7 +1144,7 @@
 		background-position: 28%;
     background-size: cover;
 	}
-	.flat-video h1 {
+	.flat-video h1, .flat-sponsors .sponsors-title h2 {
 		font-size: 36px;
 		line-height: 44px;
 	}
