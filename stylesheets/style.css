@@ -4371,7 +4371,7 @@
 		display: flex;
 		margin: 0;
 		padding-bottom: 15px;
-		border-top: 1px solid #e7e7e7;
+		border-top: 1px solid #e5ebf6;
     padding-top: 10px;
 	}
 	.flat-features-2 .contact-info .wrap-icon {
@@ -4408,7 +4408,7 @@
 	}
 	.flat-get-in-touch .get-in-touch input,
 	.flat-get-in-touch .get-in-touch textarea {
-	    background-color: #e7e7e7;
+	    background-color: #e5ebf6;
 	    border: none;
 	    color: #7d7bad;
 	    font-family: Rubik;
