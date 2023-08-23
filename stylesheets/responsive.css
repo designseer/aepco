@@ -24,6 +24,10 @@
 	}
 }
 
+@media only screen and (min-width: 1200px) and (max-width: 1440px) { 
+  
+}
+
 @media only screen and (min-width: 1200px) { 
 	.flat-team .wrap-team .info-team {;
 		min-height: 450px;
@@ -45,6 +49,11 @@
 	}
 	.flat-features-5 .content-features-5 .image-features-5 {
 		padding: 0px 35px;
+	}
+	.lh-custom {
+		padding-top: 26px;
+		line-height: 30px !important;
+		padding-bottom: 28px;
 	}
 }
 
