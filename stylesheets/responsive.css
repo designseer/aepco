@@ -45,7 +45,7 @@
 		display: none;
 	}
 	.lh-20 {
-		line-height: 20px !important;
+		line-height: 22.5px !important;
 	}
 	.flat-features-5 .content-features-5 .image-features-5 {
 		padding: 0px 35px;
@@ -58,6 +58,13 @@
 	.services-03 .services-heading {
 		padding-bottom: 25px;
     padding-top: 20px;
+	}
+	.flat-team .website-02 .info-team h2 {
+		padding-top: 26px;
+		padding-bottom: 25px;
+	}
+	.lh-custom-2 {
+    line-height: 33px !important;
 	}
 }
 
