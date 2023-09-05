@@ -7964,10 +7964,10 @@
 	    margin-right: 0;
 	}
 
-	.main-homepage1 .flat-sponsors .owl-prev,
+	/* .main-homepage1 .flat-sponsors .owl-prev,
 	.main-homepage1 .flat-sponsors .owl-next {
 		display: none;
-	}
+	} */
 
 	.main-services-details .flat-sponsors .owl-prev,
 	.main-services-details .flat-sponsors .owl-next {
@@ -7989,4 +7989,22 @@
 
 	.main-typography .flat-call-to-action-style2 .button-btn.style3:hover {
 		padding: 16px 35px 16px 87px;
+	}
+
+	.owl-dots .owl-dot {
+		background: #062975 !important;
+		width: 15px;
+		height: 15px;
+		border-radius: 50px;
+		margin-right: 5px;
+	}
+	.owl-dots .owl-dot.active {
+		background: #255edc !important;
+	}
+	.owl-nav .fa-arrow-left:before, .owl-nav .fa-arrow-right:before{
+		color: #062975 !important;
+		font-size: 20px;
+	}
+	.owl-nav .owl-prev {
+		margin-right: 10px;
 	}

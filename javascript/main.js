@@ -95,6 +95,7 @@
                     pagination: true,
                     autoplay: auto,
                     autoplayTimeout: 5000,
+                    navText: ['<i class="fas fa-arrow-left"></i>','<i class="fas fa-arrow-right"></i>'],
                     responsive: {
                         0:{
                             items:item3
@@ -737,7 +738,12 @@
                 item2 = $this.data("column2"),
                 item3 = $this.data("column3"),
                 gap = Number($this.data("gap"));
-
+                $(".next").click(function(){
+                    owl.trigger('owl.next');
+                });
+                $(".prev").click(function(){
+                    owl.trigger('owl.prev');
+                });
                 $this.find('.owl-carousel').owlCarousel({
                     margin: gap,
                     thumb: true,
@@ -746,7 +752,6 @@
                     navigation : true, 
                     autoplay: auto,
                     autoplayTimeout: 5000,
-                    navText: ['<i class="fas fa-arrow-left"></i>','<i class="fas fa-arrow-right"></i>'],
                     responsive: {
                         0:{
                             items:item3

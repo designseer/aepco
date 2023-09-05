@@ -715,9 +715,12 @@
 	.main-testimonials .flat-sponsors {
 	    margin-top: 10px;
 	}
-	.flat-sponsors .flat-carousel-box .owl-prev, 
+	/* .flat-sponsors .flat-carousel-box .owl-prev, 
 	.flat-sponsors .flat-carousel-box .owl-next	{
        display: none;
+	} */
+	.owl-nav {
+		padding-bottom: 40px;
 	}
 	.main-testimonials .flat-our-blog {
 	    margin-top: 20px;
