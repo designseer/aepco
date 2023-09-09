@@ -2828,7 +2828,8 @@
 		font-family: Rubik;
 		font-size: 30px;
 		font-weight: 400;
-		color: #e1eaeb;
+		color: #fff;
+		-webkit-text-stroke: 0.5px #fff;
 		margin: 0 100px;
 		display: inline-block;
 		position: relative;
