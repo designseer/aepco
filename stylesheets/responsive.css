@@ -1143,7 +1143,17 @@
 
 /* All Mobile Sizes */
 @media only screen and (max-width: 767px) {
-
+	button.owl-prev {
+		left: -2%;
+		top: 15%;
+	}
+	button.owl-next {
+		right: -2%;
+		top: 15%;
+	}
+	.owl-carousel .owl-item {
+		padding: 0 40px;
+	}
 	.flat-team {
 		padding: 40px 0 0px;
 	}
