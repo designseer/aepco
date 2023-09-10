@@ -2824,12 +2824,13 @@
 
 /* Flat Slider 
 -------------------------------------------------------------- */
+
 	.flat-slider.style1 .wellcome.make {
 		font-family: Rubik;
 		font-size: 30px;
 		font-weight: 400;
-		color: #fff;
-		-webkit-text-stroke: 0.5px #fff;
+		color: #ffc954;
+		-webkit-text-stroke: 0.7px #ffc954;
 		margin: 0 100px;
 		display: inline-block;
 		position: relative;
