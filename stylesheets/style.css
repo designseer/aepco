@@ -2830,13 +2830,12 @@
 		font-size: 30px;
 		font-weight: 400;
 		color: #ffc954;
-		-webkit-text-stroke: 0.7px #ffc954;
+		/* -webkit-text-stroke: 0.7px #ffc954; */
 		margin: 0 100px;
 		display: inline-block;
 		position: relative;
 	}
-
-	.flat-slider.style1 .wellcome.make:before {
+	/* .flat-slider.style1 .wellcome.make:before {
 		content: '';
 		position: absolute;
 		top: 47%;
@@ -2854,7 +2853,7 @@
 		width: 70px;
 		height: 1px;
 		background-color: #e1eaeb;
-	}
+	} */
 
 	.flat-slider.style1 .text-white.style1 {
 		font-family: Poppins;
