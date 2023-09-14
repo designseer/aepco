@@ -1576,9 +1576,9 @@
 		/* box-shadow: rgba(0, 0, 0, 0.15) 2.72076px 8px 24px;  */
 	}
 	.home .logo {
-		background-color: #08195108;
+		/*background-color: #08195108;*/
 		margin-top: -20px;
-		box-shadow: rgba(0, 0, 0, 0.15) 2.72076px 8px 24px; 
+		/*box-shadow: rgba(0, 0, 0, 0.15) 2.72076px 8px 24px; */
 	}
 	header.style4 .search {
 		float: right;
