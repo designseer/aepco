@@ -84,16 +84,16 @@
 } 
 
 .flat-button-arrow {
-    line-height: 60px;
+    line-height: 60px !important;
     font-size: 14px;
-    font-family: "Poppins";
-    font-weight: 600;
-    background-color: #062975;
-    display: inline-block;
-    color: #fff;
+    font-family: "Poppins" !important;
+    font-weight: 600 !important;
+    background-color: #062975 !important;
+    display: inline-block !important;
+    color: #fff !important;
     padding-left: 40px;
     padding-right: 100px;
-    position: relative;
+    position: relative !important;
     overflow: hidden;
 }
 
@@ -113,7 +113,9 @@
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
-
+input.flat-button-arrow {
+    padding-right: 40px;
+}
 .flat-button-arrow:before {
     left: -60px;
 }
@@ -133,6 +135,13 @@
     color: #fff;
     padding-left: 100px;
     padding-right: 40px;
+}   
+input.flat-button-arrow:hover {
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #fff !important;
+    border: 1px solid #19348e !important;
+    color: #19348e !important;
 }   
 
 /* flat-claim
