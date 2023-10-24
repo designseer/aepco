@@ -22,7 +22,7 @@ if (!$error) {
     $e_reply = "E-mail: $email" . PHP_EOL . PHP_EOL;
     $e_content = "Message:\r\n$message" . PHP_EOL;
 
-    $msg = wordwrap($e_body . $e_reply, 70);
+    $msg = wordwrap($e_body . $e_reply . $e_content, 70);
 
     $headers = "From: $email" . PHP_EOL;
     $headers .= "Reply-To: $email" . PHP_EOL;
